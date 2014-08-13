@@ -1,0 +1,119 @@
+/* Body */
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+body {
+	background-color: black
+}
+
+.main {
+	background-color: white;
+	background-image: url('../images/Guile_Stage.jpg'); 
+	margin-top: 110px;
+	padding-left: 100px;
+	min-width: 1200px;
+	height: 475px;
+	background-size: 1650px;
+	background-position: -20px 100%;
+}
+
+
+
+/* Ryu Style Declarations */
+
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+  width: 659px;
+  height: 494px;
+}
+
+.ryu-ready, .ryu-throwing, .ryu-cool {
+  display: none;
+} 
+
+.ryu-ready {
+  background-image: url('../images/ryu-ready-position.gif');
+}
+
+.ryu-still {
+  background-image: url('../images/ryu-standing-still.png');
+}
+
+.ryu-throwing {
+  background-image: url('../images/ryu-throwing-hadouken.png');
+}
+
+.ryu-cool {
+	background-image: url('../images/ryu-cool.gif');
+}
+
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+  background-repeat: no-repeat;
+}
+
+
+ .ryu-ready,
+ .ryu-still,
+ .ryu-throwing,
+ .ryu-cool {
+	
+	width: 659px;
+	height: 494px;
+	z-index: 9999;
+
+ } 
+
+
+.ryu {
+  float: left;
+  z-index: 9999;
+
+}
+
+/* Hadouken */
+
+.hadouken {
+  background-image: url('../images/hadouken.gif');
+	width: 156px;
+	height: 90px;
+	display: none;
+	float: left;
+	position: relative;
+	top: 170px;
+	left: -134px;
+	float: left;
+}
+
+/* Street Fighter Logo */
+
+img {
+	height: 145px;
+	position: absolute;
+	left: 680px;
+	top: 5px;
+}
+
+/* Instructions */
+
+.instructions {
+	text-align: center;
+	font-family: Lobster;
+	font-size: 24px;
+	margin-right: 30px;
+	line-height: 1.5;
+	width: 500px;
+	margin-top: -150px;
+	float: right;
+	color: black;
+	font-weight: bold;
+	background-color: white;
+	background-size: 10px;
+}
+
+
+
+
+
+
+
